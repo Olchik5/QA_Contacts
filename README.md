@@ -1,2 +1,2 @@
 # QA_Contacts
-Selenium-java tets for "Phone book" websit
+Selenium-java tets for "Phone book" website
