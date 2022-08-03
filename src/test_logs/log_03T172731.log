@@ -1,0 +1,33 @@
+457  [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\49160\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml"
+1014 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null] -200438387
+1014 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] 1939654662
+1014 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE CreateAccountTests.ensurePrecondition()[pri:0, instance:null] 492486800
+1014 [main] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR CreateAccountTests.ensurePrecondition()[pri:0, instance:null] ==> TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null]
+1026 [main] DEBUG org.testng.internal.Graph - [Graph]   REMOVED TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+1026 [main] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR CreateAccountTests.ensurePrecondition()[pri:0, instance:null] ==> TestBase.setUp()[pri:0, instance:null]
+1026 [main] DEBUG org.testng.internal.Graph - [Graph]   REMOVED TestBase.setUp()[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+1026 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+1026 [ForkJoinPool.commonPool-worker-19] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR CreateAccountTests.ensurePrecondition()[pri:0, instance:null] ==> TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null]
+1026 [ForkJoinPool.commonPool-worker-19] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR CreateAccountTests.ensurePrecondition()[pri:0, instance:null] ==> TestBase.setUp()[pri:0, instance:null]
+1026 [main] DEBUG org.testng.internal.Graph - [Graph]   REMOVED PRED TestBase.setUp()[pri:0, instance:null] FROM NODE CreateAccountTests.ensurePrecondition()[pri:0, instance:null]
+1026 [main] DEBUG org.testng.internal.Graph - [Graph]   REMOVED PRED TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null] FROM NODE CreateAccountTests.ensurePrecondition()[pri:0, instance:null]
+1026 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+1026 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+1026 [main] DEBUG org.testng.internal.Graph - [Graph]               TestBase.setUp()[pri:0, instance:null]
+1026 [main] DEBUG org.testng.internal.Graph - [Graph]               TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null]
+1026 [main] DEBUG org.testng.internal.Graph - [Graph]               CreateAccountTests.ensurePrecondition()[pri:0, instance:null]
+1026 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+1026 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.stopTest(org.testng.ITestResult)[pri:0, instance:null] 321724141
+1026 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] -372102275
+1026 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+1026 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+1042 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+1042 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+1042 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE CreateAccountTests.negativeRegistrationTestWithInvalidEmailFromDataProvider(java.lang.String,java.lang.String)[pri:0, instance:com.telrun.contacts.tests.CreateAccountTests@5db6b9cd] -403475497
+1042 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+1042 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+1042 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+1042 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+1058 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\49160\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+

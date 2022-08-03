@@ -1,8 +1,8 @@
-package com.telrun.contacts;
+package com.telrun.contacts.tests;
 
 import org.testng.annotations.Test;
 
-public class HomePageTests extends TestBase{
+public class HomePageTests extends TestBase {
 
     @Test
     public void openHomePageTest() {

@@ -1,0 +1,39 @@
+451  [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\49160\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml"
+980  [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null] -200438387
+980  [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] 1939654662
+980  [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE CreateAccountTests.ensurePrecondition()[pri:0, instance:null] 492486800
+980  [main] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR CreateAccountTests.ensurePrecondition()[pri:0, instance:null] ==> TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null]
+999  [main] DEBUG org.testng.internal.Graph - [Graph]   REMOVED TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+999  [main] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR CreateAccountTests.ensurePrecondition()[pri:0, instance:null] ==> TestBase.setUp()[pri:0, instance:null]
+999  [main] DEBUG org.testng.internal.Graph - [Graph]   REMOVED TestBase.setUp()[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+999  [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+999  [ForkJoinPool.commonPool-worker-5] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR CreateAccountTests.ensurePrecondition()[pri:0, instance:null] ==> TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null]
+999  [ForkJoinPool.commonPool-worker-5] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR CreateAccountTests.ensurePrecondition()[pri:0, instance:null] ==> TestBase.setUp()[pri:0, instance:null]
+999  [main] DEBUG org.testng.internal.Graph - [Graph]   REMOVED PRED TestBase.setUp()[pri:0, instance:null] FROM NODE CreateAccountTests.ensurePrecondition()[pri:0, instance:null]
+999  [main] DEBUG org.testng.internal.Graph - [Graph]   REMOVED PRED TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null] FROM NODE CreateAccountTests.ensurePrecondition()[pri:0, instance:null]
+999  [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+999  [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+999  [main] DEBUG org.testng.internal.Graph - [Graph]               TestBase.setUp()[pri:0, instance:null]
+999  [main] DEBUG org.testng.internal.Graph - [Graph]               TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null]
+999  [main] DEBUG org.testng.internal.Graph - [Graph]               CreateAccountTests.ensurePrecondition()[pri:0, instance:null]
+999  [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+1015 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.stopTest(org.testng.ITestResult)[pri:0, instance:null] 321724141
+1015 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] -372102275
+1015 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+1015 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+1015 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+1015 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+1015 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE CreateAccountTests.negativeRegistrationTestWithInvalidEmailFromDataProvider(java.lang.String,java.lang.String)[pri:0, instance:com.telrun.contacts.tests.CreateAccountTests@4f0f2942] -649338036
+1015 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+1015 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+1015 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+1015 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+1030 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\49160\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+4328 [main] INFO  com.telrun.contacts.tests.TestBase - Test start negativeRegistrationTestWithInvalidEmailFromDataProviderwith data[Pet.com, Hh123456ß?]
+6127 [main] INFO  com.telrun.contacts.tests.TestBase - PASSED: test method negativeRegistrationTestWithInvalidEmailFromDataProvider
+8828 [main] INFO  com.telrun.contacts.tests.TestBase - Test start negativeRegistrationTestWithInvalidEmailFromDataProviderwith data[Pe, Hh123456ß?]
+10697 [main] INFO  com.telrun.contacts.tests.TestBase - PASSED: test method negativeRegistrationTestWithInvalidEmailFromDataProvider
+12706 [main] INFO  com.telrun.contacts.tests.TestBase - Test start negativeRegistrationTestWithInvalidEmailFromDataProviderwith data[@gmail.com, Hh123456ß?]
+13955 [main] INFO  com.telrun.contacts.tests.TestBase - PASSED: test method negativeRegistrationTestWithInvalidEmailFromDataProvider

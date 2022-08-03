@@ -1,13 +1,13 @@
-package com.telrun.contacts;
+package com.telrun.contacts.fw;
 
+import com.telrun.contacts.models.Contact;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 
 import java.util.List;
 
-public class ContactHelper extends HelperBase{
+public class ContactHelper extends HelperBase {
 
 
     public ContactHelper(WebDriver driver) {
@@ -42,8 +42,16 @@ public class ContactHelper extends HelperBase{
         type(By.cssSelector("input:nth-child(3)"), contact.getPhone());
         type(By.cssSelector("input:nth-child(4)"), contact.getEmail());
         type(By.cssSelector("input:nth-child(5)"), contact.getAddress());
-        type(By.cssSelector("input:nth-child(6)"), contact.getDescription());
+        typeWithAction();
+        //type(By.cssSelector("input:nth-child(6)"), contact.getDescription());
     }
+
+    public void typeWithAction() {
+        clickWithAction(By.cssSelector("input:nth-child(6)"));
+        driver.findElement(By.cssSelector("input:nth-child(6)")).clear();
+        driver.findElement(By.cssSelector("input:nth-child(6)")).sendKeys("hello");
+    }
+
 
     public int sizeOfContacts() {
         if (isElementPresent(By.cssSelector(".contact-item_card__2SOIM"))) {

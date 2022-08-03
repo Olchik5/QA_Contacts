@@ -1,5 +1,6 @@
-package com.telrun.contacts;
+package com.telrun.contacts.fw;
 
+import com.telrun.contacts.models.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -28,6 +29,10 @@ public class UserHelper extends HelperBase {
         click(By.xpath("//a[contains(.,'LOGIN')]"));
         fillLoginRegistrationForm(new User().setEmail("kuku+1@mail.com").setPassword("kukT12345}~"));
         click(By.xpath("//button[contains(.,'Login')]"));
+    }
+
+    public boolean isErrorPresent() {
+        return isElementPresent(By.xpath("//div[.='Login Failed with code 400']"));
     }
 
 }

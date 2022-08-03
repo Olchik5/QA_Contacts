@@ -1,10 +1,10 @@
-package com.telrun.contacts;
+package com.telrun.contacts.tests;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class RemoveContactTests extends TestBase{
+public class RemoveContactTests extends TestBase {
 
     @BeforeMethod
     public void ensurePrecondition() {
