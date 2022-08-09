@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telrun.contacts.tests.AddContactTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-03T15:17:01" hostname="LAPTOP-ES9UA65O" time="2.902">
+  <properties/>
+  <testcase name="addContactPositiveTest" classname="com.telrun.contacts.tests.AddContactTests" time="2.902"/>
+  <system-out><![CDATA[17:17:00.579 [Test worker] INFO  com.telrun.contacts.tests.TestBase - Test start addContactPositiveTestwith data[]
+17:17:04.431 [Test worker] INFO  com.telrun.contacts.tests.TestBase - PASSED: test method addContactPositiveTest
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 41403
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1659539819.074][WARNING]: This version of ChromeDriver has not been tested with Chrome version 103.
+Aug 03, 2022 5:16:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
