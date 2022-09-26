@@ -29,16 +29,9 @@ public class CreateAccountTests extends TestBase {
         //assert the button Sign out displayed
         Assert.assertTrue(app.getHeader().isSignOutButtonPresent());
     }
-    @DataProvider
-    public Iterator<Object[]> addNewUser(){
-        List<Object[]> list = new ArrayList<>();
-        list.add(new Object[]{"Pet.com", "Hh123456ß?"});
-        list.add(new Object[]{"Pe", "Hh123456ß?"});
-        list.add(new Object[]{"@gmail.com", "Hh123456ß?"});
-        return list.iterator();
 
-    }
-    @Test(dataProvider = "addNewUser")
+
+    @Test(dataProvider = "addNewUser", dataProviderClass = DataProviders.class)
     public void negativeRegistrationTestWithInvalidEmailFromDataProvider(String email, String password){
         //click on the link LOGIN
         app.getUser().click(By.xpath("//a[contains(.,'LOGIN')]"));
